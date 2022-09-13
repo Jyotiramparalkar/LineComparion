@@ -18,8 +18,6 @@ public class LineComparison
             System.out.println("Lines are equal");
         else
             System.out.println("Lines are not equal");
-
-
      
         lineComparison.compareLines(line1, line2);
 
@@ -28,12 +26,12 @@ public class LineComparison
     /*
     * UC-1 -> calculate the length of line
     * */
-    public double lengthOfLine(){
+    public double lengthOfLine()
+    {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter values for x1 and y1");
         double x1 = sc.nextDouble();
         double y1 = sc.nextDouble();
-
         System.out.println("Enter values for x2 and y2");
         double x2 = sc.nextDouble();
         double y2 = sc.nextDouble();
@@ -42,7 +40,8 @@ public class LineComparison
         return lengthOfLine;
     }
 
-    public boolean isLineEquals(Double line1, Double line2){
+    public boolean isLineEquals(Double line1, Double line2)
+    {
         return line1.equals(line2);
     }
 
